@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Timer Uygulaması</title>
-        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="timer-container">
-        <div class="timer-display">00:00:00</div>
+    <div class="timer-container">
+        <h1>Timer</h1>
+        <div class="timer">
+        <div class="timer-display">
+            <span class="minutes">00</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
         <div class="timer-buttons">
-            <button id="start-btn">Başlat</button>
-            <button id="stop-btn">Durdur</button>
-            <button id="reset-btn">Sıfırla</button>
+            <button class="start-btn">Start</button>
+            <button class="stop-btn">Stop</button>
+            <button class="reset-btn">Reset</button>
         </div>
         </div>
-        <script src="script.js"></script>
+    </div>
+    <script src="main.js"></script>
     </body>
 </html>
